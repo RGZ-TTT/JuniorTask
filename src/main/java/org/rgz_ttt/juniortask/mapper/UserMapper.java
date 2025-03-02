@@ -10,11 +10,4 @@ public interface UserMapper {
     User toEntity(UserDto userDto);
 
     UserDto toDto(User user);
-
-    User updateWithNull(UserDto userDto, @MappingTarget User user);
-
-    @AfterMapping
-    default void linkSubscriptions(@MappingTarget User user) {
-        user.getSubscriptions().forEach(subscription -> subscription.setUser(user));
-    }
 }
