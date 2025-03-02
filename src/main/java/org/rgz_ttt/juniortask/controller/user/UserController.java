@@ -1,8 +1,9 @@
-package org.rgz_ttt.juntask.controller.user;
+package org.rgz_ttt.juniortask.controller.user;
 
 import lombok.RequiredArgsConstructor;
-import org.rgz_ttt.juntask.dto.UserDto;
-import org.rgz_ttt.juntask.service.UserService;
+
+import org.rgz_ttt.juniortask.dto.UserDto;
+import org.rgz_ttt.juniortask.service.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;

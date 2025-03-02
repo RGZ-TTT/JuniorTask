@@ -1,8 +1,9 @@
-package org.rgz_ttt.juntask.mapper;
+package org.rgz_ttt.juniortask.mapper;
+
 
 import org.mapstruct.*;
-import org.rgz_ttt.juntask.dto.UserDto;
-import org.rgz_ttt.juntask.model.User;
+import org.rgz_ttt.juniortask.dto.UserDto;
+import org.rgz_ttt.juniortask.model.User;
 
 @Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE, componentModel = MappingConstants.ComponentModel.SPRING)
 public interface UserMapper {

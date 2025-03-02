@@ -1,4 +1,4 @@
-package org.rgz_ttt.juntask.dto;
+package org.rgz_ttt.juniortask.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

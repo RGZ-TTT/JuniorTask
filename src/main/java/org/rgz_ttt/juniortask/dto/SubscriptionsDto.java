@@ -1,8 +1,7 @@
-package org.rgz_ttt.juntask.dto;
+package org.rgz_ttt.juniortask.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
-import org.rgz_ttt.juntask.model.User;
 
 public record SubscriptionsDto(
         Long id,

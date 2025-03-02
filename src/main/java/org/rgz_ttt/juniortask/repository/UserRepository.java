@@ -1,6 +1,6 @@
-package org.rgz_ttt.juntask.repository;
+package org.rgz_ttt.juniortask.repository;
 
-import org.rgz_ttt.juntask.model.User;
+import org.rgz_ttt.juniortask.model.User;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

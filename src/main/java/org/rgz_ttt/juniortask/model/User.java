@@ -1,4 +1,4 @@
-package org.rgz_ttt.juntask.model;
+package org.rgz_ttt.juniortask.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

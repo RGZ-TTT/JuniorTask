@@ -1,8 +1,8 @@
-package org.rgz_ttt.juntask.controller.subscription;
+package org.rgz_ttt.juniortask.controller.subscription;
 
 import lombok.RequiredArgsConstructor;
-import org.rgz_ttt.juntask.dto.SubscriptionsDto;
-import org.rgz_ttt.juntask.service.SubscriptionService;
+import org.rgz_ttt.juniortask.dto.SubscriptionsDto;
+import org.rgz_ttt.juniortask.service.SubscriptionService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

@@ -1,10 +1,10 @@
-package org.rgz_ttt.juntask.service;
+package org.rgz_ttt.juniortask.service;
 
 import lombok.RequiredArgsConstructor;
-import org.rgz_ttt.juntask.dto.UserDto;
-import org.rgz_ttt.juntask.mapper.UserMapper;
-import org.rgz_ttt.juntask.model.User;
-import org.rgz_ttt.juntask.repository.UserRepository;
+import org.rgz_ttt.juniortask.dto.UserDto;
+import org.rgz_ttt.juniortask.mapper.UserMapper;
+import org.rgz_ttt.juniortask.model.User;
+import org.rgz_ttt.juniortask.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package org.rgz_ttt.juntask.repository;
+package org.rgz_ttt.juniortask.repository;
 
-import org.rgz_ttt.juntask.model.Subscriptions;
+import org.rgz_ttt.juniortask.model.Subscriptions;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
